@@ -1,0 +1,13 @@
+# Install required packages
+conda create --name envTTS python=3.8
+conda activate envTTS
+conda install jupyter notebook
+pip install git+https://github.com/NVIDIA/NeMo.git
+conda install -c conda-forge pydub
+pip install opencv-python
+conda install -c conda-forge librosa
+pip install Cython
+pip install nemo_toolkit['all']
+pip install editdistance
+pip install wget unidecode
+pip install pynini
